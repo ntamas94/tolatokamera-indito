@@ -1,2 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources><string name="app_name">Tolatókamera indító</string></resources>
+<resources>
+    <string name="app_name">Tolatókamera indító</string>
+    <string name="a11y_desc">Automatikusan elfogadja a Tolatókamera indító naplóhozzáférési kérését, és hátramenetben a gyári felvevőt a hátsó kamerára váltja.</string>
+</resources>

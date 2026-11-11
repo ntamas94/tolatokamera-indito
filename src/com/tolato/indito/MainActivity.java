@@ -9,7 +9,7 @@ import android.widget.*;
 public class MainActivity extends Activity {
     @Override protected void onCreate(Bundle b) {
         super.onCreate(b);
-        startForegroundService(new Intent(this, WatchService.class));
+        startForegroundService(new Intent(this, WatchService.class).setAction(WatchService.ACTION_RESTART_LOG));
         LinearLayout l = new LinearLayout(this);
         l.setOrientation(LinearLayout.VERTICAL);
         l.setGravity(Gravity.CENTER);
